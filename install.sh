@@ -28,7 +28,7 @@ wget -nv -O "${shellRootPath}bale_apk.sh" https://github.com/PBK-B/rn_build_apk_
 if [ -x "${userPath}/.bash_profile" ]; then
     if [ `cat "${userPath}/.bash_profile" | grep -c "/bin/bash ${shellRootPath}bale_apk.sh"` -eq '0' ]; then
         echo "" >> "${userPath}/.bash_profile"
-        echo "# 哈希坊专用打包脚本" >> "${userPath}/.bash_profile"
+        echo "# React Native 专用打包脚本" >> "${userPath}/.bash_profile"
         echo "alias dabao=\"/bin/bash ${shellRootPath}bale_apk.sh\"" >>  "${userPath}/.bash_profile"
     fi
 
@@ -43,7 +43,7 @@ fi
 if [ -x "${userPath}/.zshrc" ]; then
     if [ `cat "${userPath}/.zshrc" | grep -c "/bin/bash ${shellRootPath}bale_apk.sh"` -eq '0' ]; then
         echo "" >> "${userPath}/.zshrc"
-        echo "# 哈希坊专用打包脚本" >> "${userPath}/.zshrc"
+        echo "# React Native 专用打包脚本" >> "${userPath}/.zshrc"
         echo "alias dabao=\"/bin/bash ${shellRootPath}bale_apk.sh\"" >>  "${userPath}/.zshrc"
     fi
         

@@ -44,21 +44,6 @@ runAPK(){
         rm -rf ./android/*.hprof && echo -e "\033[31m\n打包失败！\033[0mlog文件路径：$logPath \n"
     else
         echo -e "\033[32m\n《 ${appName} 》打包成功！\napk 输出路径：${apkPath} \033[0m\n"
-
-        if [ ! "$is_all" = "true" ]; then
-            # 判断是否全部执行默认
-            echo -e -n "\033[32m打包成功，是否上传 APK 到服务器？ Y/n ( 默认 Y ): \033[0m"
-            read is_up
-        fi
-
-        if [[ "$is_up" == "Y" ]] || [[ "$is_up" == "y" ]] || [ ! -n "$is_up" ]; then
-
-            # 进入项目目录
-            cd $appCodePath && node ./bash/nodejs/cos_upload_apk.js release
-
-        else
-            echo "你选择了不执行上传安装包！"
-        fi
     fi
 
 }
