@@ -1,5 +1,6 @@
 # React Native BaleApk shell
 > 这是一个用于 React Native 项目的 Android 快捷打包脚本
+
 > React Native for Android Build APK of shell script
 
 ### Install 🔨
