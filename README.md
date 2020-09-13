@@ -13,3 +13,6 @@
 ``` dabao /data/app/{Project Path}/ ```
 or
 ``` dabao {Project Name} ```
+
+### Update 🥥
+``` dabao_update ```
