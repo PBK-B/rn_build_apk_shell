@@ -19,6 +19,7 @@
 
 #### Bale IOS
 > Bale IOS ipa Need First Get exportOptions.plist file copy to ```~/data/ops/ios_dabao/etc/{ProjectName}/exportOptions.plist```
+
 > 打包 IOS ipa 需要先获取 exportOptions.plist 文件复制到 ```~/data/ops/ios_dabao/etc/{ProjectName}/exportOptions.plist```
 
 
