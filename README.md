@@ -4,7 +4,7 @@
 > React Native for Android build APK and IOS IPA of shell script
 
 ### Install 🔨
-``` /bin/bash -c "$(curl -fsSL https://github.com/PBK-B/rn_build_apk_shell/blob/master/install.sh)" ```
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PBK-B/rn_build_apk_shell/master/install.sh)" ```
 
 ### Use shell 🌈
 
